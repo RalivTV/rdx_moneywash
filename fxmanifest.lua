@@ -5,19 +5,19 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 version '0.0.1'
 
 server_scripts {
-	'@redm_extended/locale.lua',
+	'@rdx_core/locale.lua',
 	'locales/en.lua',
 	'config.lua',
 	'server/main.lua',
 }
 
 client_scripts {
-	'@redm_extended/locale.lua',
+	'@rdx_core/locale.lua',
 	'locales/en.lua',
 	'config.lua',
 	'client/main.lua',
 }
 
 dependencies {
-	'redm_extended',
+	'rdx_core',
 }
